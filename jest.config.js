@@ -4,5 +4,7 @@ module.exports = {
   coverageDirectory: "coverage",
   coverageProvider: "v8",
   testEnvironment: "node",
-  rootDir: "./tests",
+  projects: [
+    '<rootDir>/tests/*'
+  ],
 };

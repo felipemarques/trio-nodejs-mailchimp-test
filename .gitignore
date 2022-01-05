@@ -1,1 +1,3 @@
-./tests/coverage/
+tests/coverage/
+.env
+node_modules/
