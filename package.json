@@ -18,7 +18,7 @@
     "test:unit": "jest --projects tests/unit",
     "test:e2e": "jest --projects tests/e2e",
     "test": "jest",
-    "start": "PORT=3000 nodemon src/server.js"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
