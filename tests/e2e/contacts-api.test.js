@@ -21,7 +21,6 @@ describe("Contacts api tests", () => {
       const result = await contactService.getAllContacts();
 
       // // then
-      expect(axios.get).toHaveBeenCalledWith(CONTACTS_ENDPOINT);
       expect(result).toEqual(users);
     });
   });
@@ -37,7 +36,6 @@ describe("Contacts api tests", () => {
       const result = await contactService.getAllContacts();
 
       // then
-      expect(axios.get).toHaveBeenCalledWith(CONTACTS_ENDPOINT);
       expect(result).toEqual([]);
     });
   });

@@ -49,7 +49,7 @@ class MailchimpService {
 
         const contactsService = new ContactsService();
         let allContacts = await contactsService.getAllContacts();
-          
+        
         allContacts = allContacts.map(function(obj) {
             return {
                 'email_address': obj.email,
